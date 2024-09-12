@@ -1,0 +1,20 @@
+name: "Build Image and Push to Docker Hub"
+description: "Builds a Docker image and pushes it to Docker Hub"
+
+inputs:
+  username:
+    description: "Docker Hub username"
+    required: true
+  password:
+    description: "Docker Hub password"
+    required: true
+  repository:
+    description: "Docker Hub repository"
+    required: true
+  tag:
+    description: "Docker image tag"
+    required: true
+
+runs:
+  using: "node12"
+  main: "index.js"

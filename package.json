@@ -1,0 +1,12 @@
+{
+  "name": "build-push-dockerhub-action",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.10.0",
+    "typescript": "^4.5.4"
+  }
+}
