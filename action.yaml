@@ -14,6 +14,10 @@ inputs:
   tag:
     description: "Docker image tag"
     required: true
+  dockerfile:
+    description: "Path to Dockerfile"
+    required: false
+    default: "./Dockerfile"
 
 runs:
   using: "node12"
