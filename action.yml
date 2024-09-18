@@ -1,0 +1,13 @@
+name: 'Hello Action'
+description: 'Say Hello'
+author: 'Nathalia T. Silva'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+
+inputs:
+  name:
+    description: 'Name to greet'
+    required: true
+    default: 'World'
